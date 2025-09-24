@@ -62,7 +62,7 @@ public class WaterDial : MonoBehaviour
         currentGauge = Mathf.Clamp(currentGauge, 0f, 240f);
         DialGauge = (byte)currentGauge;
 
-        // Handle gauge range hold detection
+        //Handles gauge range hold detection
 
         float min = rangeMins[targetRange - 1];
         float max = rangeMaxs[targetRange - 1];
@@ -73,7 +73,7 @@ public class WaterDial : MonoBehaviour
             if (holdTimer >= 2f)
             {
                 Debug.Log("YAY");
-                holdTimer = -999f; // Prevent retriggering
+                holdTimer = -999f; 
             }
         }
         else
