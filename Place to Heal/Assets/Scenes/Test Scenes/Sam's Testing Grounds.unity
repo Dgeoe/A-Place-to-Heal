@@ -13372,6 +13372,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BettyBug
       objectReference: {fileID: 0}
+    - target: {fileID: 4493946216257506598, guid: 23cbf2633138eb2458f1c002b0a2371a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
