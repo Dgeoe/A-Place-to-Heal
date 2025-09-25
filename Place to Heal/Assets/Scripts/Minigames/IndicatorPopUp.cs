@@ -6,10 +6,12 @@ public class IndicatorPopUp : MonoBehaviour
     public bool Betty;
     public bool Noxya;
 
-    [Header("Reference to StatManager")]
+    [Header("10 is Max")]
+    public byte StressValue = 0; //how low a stat has to get for the to pop up 
+
     public StatManager statManager;
 
-    [Header("Minigame Indicator GameObject")]
+    [Header("Minigame Indicator")]
     public GameObject indicator;
 
     void Update()
@@ -18,7 +20,7 @@ public class IndicatorPopUp : MonoBehaviour
 
         if (Betty)
         {
-            bool shouldEnable = statManager.Betty_Hunger < 7 || statManager.Betty_Happiness < 7;
+            bool shouldEnable = statManager.Betty_Hunger < StressValue || statManager.Betty_Happiness < StressValue;
 
             if (shouldEnable && !indicator.activeSelf)
             {
@@ -32,7 +34,7 @@ public class IndicatorPopUp : MonoBehaviour
 
         if (Noxya)
         {
-            bool shouldEnable = statManager.Noxya_Hunger < 7 || statManager.Noxya_Health < 7;
+            bool shouldEnable = statManager.Noxya_Hunger < StressValue || statManager.Noxya_Health < StressValue;
 
             if (shouldEnable && !indicator.activeSelf)
             {
