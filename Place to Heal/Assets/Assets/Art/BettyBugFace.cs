@@ -28,5 +28,9 @@ public class BettyBugFace : MonoBehaviour
         //m_ObjectRenderer.materials[0].color = Color.red;
         m_ObjectRenderer.materials[0].mainTextureOffset = new Vector2(offset, 1);
     }
+    public void FaceChange()
+    {
+        m_ObjectRenderer.materials[0].mainTextureOffset = new Vector2(offset, 1);
+    }
 
 }
