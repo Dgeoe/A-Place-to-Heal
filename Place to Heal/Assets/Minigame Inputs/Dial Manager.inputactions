@@ -1,0 +1,46 @@
+{
+    "version": 1,
+    "name": "Dial Manager",
+    "maps": [
+        {
+            "name": "New action map",
+            "id": "aa6a3033-83ca-4b8e-aef0-3667ec7a4a20",
+            "actions": [
+                {
+                    "name": "Press",
+                    "type": "Button",
+                    "id": "cfdcae60-2849-4923-89b3-c7fb896fec8c",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "87bf30d7-4445-4909-b1a3-776485c0152c",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Press",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "29d12a5c-1e74-4fbf-bb4e-4bbf04274e5c",
+                    "path": "<Gamepad>/rightTrigger",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Press",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
