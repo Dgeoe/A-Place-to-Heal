@@ -5,9 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/Test Scenes/Joe's Testing Grounds.unity
+    guid: d1de3527c81ee094cb4a68f66affeb5a
+  - enabled: 0
+    path: Assets/Scenes/Test Scenes/Joe's Testing Grounds 1.unity
+    guid: 084aec4ed054c62468e8abe155d44758
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/Playtest #1.unity
+    guid: e664260443317874e97940f976810738
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
