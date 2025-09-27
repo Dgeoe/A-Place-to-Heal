@@ -131,6 +131,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.9167299
@@ -281,6 +285,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -302,6 +310,10 @@ PrefabInstance:
     - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_Name
       value: helixShroom (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -373,7 +385,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &31368463
 Transform:
@@ -462,7 +474,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &34090202
 Transform:
@@ -640,7 +652,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!212 &44499820
 SpriteRenderer:
@@ -783,6 +795,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -809,7 +825,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &56228433
 Transform:
@@ -898,7 +914,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &64847032
 Transform:
@@ -1102,6 +1118,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1128,7 +1148,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &94490830
 Transform:
@@ -1338,7 +1358,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &103430672
 Transform:
@@ -1563,7 +1583,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &112375640
 Transform:
@@ -1652,7 +1672,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &112709312
 Transform:
@@ -1741,7 +1761,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &124665894
 Transform:
@@ -2043,7 +2063,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &164935036
 Transform:
@@ -2132,7 +2152,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &179724072
 Transform:
@@ -2273,6 +2293,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2299,7 +2323,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &188192069
 Transform:
@@ -2388,7 +2412,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &189928205
 Transform:
@@ -2477,7 +2501,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &193113895
 Transform:
@@ -2561,6 +2585,10 @@ PrefabInstance:
     - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_Name
       value: helixShroom (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalScale.z
@@ -2880,6 +2908,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.80592006
@@ -2962,7 +2994,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &218615192
 Transform:
@@ -3046,6 +3078,10 @@ PrefabInstance:
     - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_Name
       value: helixShroom (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalScale.z
@@ -3281,7 +3317,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &247170550
 Transform:
@@ -3365,6 +3401,10 @@ PrefabInstance:
     - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_Name
       value: helixShroom (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalScale.x
@@ -3581,7 +3621,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &283546131
 Transform:
@@ -3670,7 +3710,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &328014297
 Transform:
@@ -3895,7 +3935,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &345744349
 Transform:
@@ -3979,6 +4019,10 @@ PrefabInstance:
     - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_Name
       value: helixShroom (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4101,6 +4145,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
       propertyPath: m_Name
       value: helixShroom (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4240,6 +4288,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4261,6 +4313,10 @@ PrefabInstance:
     - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_Name
       value: helixShroom (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalScale.x
@@ -4451,7 +4507,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &389005337
 Transform:
@@ -4584,6 +4640,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4605,6 +4665,10 @@ PrefabInstance:
     - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_Name
       value: helixShroom (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalScale.x
@@ -5031,6 +5095,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.80592
@@ -5256,7 +5324,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &415991379
 Transform:
@@ -5362,6 +5430,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5428,6 +5500,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5454,7 +5530,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &451622652
 Transform:
@@ -5588,7 +5664,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &462229603
 Transform:
@@ -5713,7 +5789,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &473452893
 Transform:
@@ -5842,6 +5918,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5868,7 +5948,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &492193233
 Transform:
@@ -5957,7 +6037,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &493031167
 Transform:
@@ -6046,7 +6126,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &493064390
 Transform:
@@ -6133,7 +6213,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &495096462
 Transform:
@@ -6314,6 +6394,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6392,6 +6476,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6413,6 +6501,10 @@ PrefabInstance:
     - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_Name
       value: helixShroom (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalScale.x
@@ -6548,6 +6640,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6569,6 +6665,10 @@ PrefabInstance:
     - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_Name
       value: helixShroom (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalScale.x
@@ -6652,7 +6752,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &545203689
 Transform:
@@ -6793,6 +6893,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6870,6 +6974,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
       propertyPath: m_Name
       value: helixShroom (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7133,6 +7241,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 20.150002
@@ -7198,6 +7310,10 @@ PrefabInstance:
     - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_Name
       value: helixShroom (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7269,7 +7385,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &630810593
 Transform:
@@ -7732,6 +7848,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7829,6 +7949,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.9167299
@@ -7903,7 +8027,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &681748035
 Transform:
@@ -7988,6 +8112,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.86446995
@@ -8065,6 +8193,10 @@ PrefabInstance:
     - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_Name
       value: helixShroom (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8175,6 +8307,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
       propertyPath: m_Name
       value: helixShroom (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8351,6 +8487,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 279c659bc8254354e870e1e1e820e11f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FruitPlaceHolder
+  BettysReactions: {fileID: 0}
 --- !u!4 &705362443
 Transform:
   m_ObjectHideFlags: 0
@@ -8426,6 +8563,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8452,7 +8593,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &709806759
 Transform:
@@ -8541,7 +8682,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &713032341
 Transform:
@@ -8628,7 +8769,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &715006815
 Transform:
@@ -8798,6 +8939,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.80592
@@ -8880,7 +9025,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &780736545
 Transform:
@@ -8969,7 +9114,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &785761145
 Transform:
@@ -9110,6 +9255,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9134,7 +9283,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &786688699
 Transform:
@@ -9172,7 +9321,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &789475035
 Transform:
@@ -9261,7 +9410,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &794764622
 Transform:
@@ -9348,7 +9497,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &805443151
 Transform:
@@ -9453,6 +9602,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
       propertyPath: m_Name
       value: helixShroom (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9768,7 +9921,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &818532822
 Transform:
@@ -9975,6 +10128,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10001,7 +10158,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &834812236
 Transform:
@@ -10141,6 +10298,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
       propertyPath: m_Name
       value: helixShroom (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10422,7 +10583,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &859345658
 Transform:
@@ -10506,6 +10667,10 @@ PrefabInstance:
     - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_Name
       value: helixShroom (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalScale.x
@@ -10641,6 +10806,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10667,7 +10836,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &874928842
 Transform:
@@ -10756,7 +10925,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &884366891
 Transform:
@@ -10950,6 +11119,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.1166766
@@ -11084,6 +11257,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11154,6 +11331,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11175,6 +11356,10 @@ PrefabInstance:
     - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_Name
       value: helixShroom (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalScale.z
@@ -11294,6 +11479,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11360,6 +11549,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11386,7 +11579,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &930427413
 Transform:
@@ -11475,7 +11668,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &940373646
 Transform:
@@ -11564,7 +11757,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &949767040
 Transform:
@@ -11789,7 +11982,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!212 &962533964
 SpriteRenderer:
@@ -11876,6 +12069,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 11
@@ -11941,6 +12138,10 @@ PrefabInstance:
     - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_Name
       value: helixShroom (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalScale.x
@@ -12020,6 +12221,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.80592006
@@ -12097,6 +12302,10 @@ PrefabInstance:
     - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_Name
       value: helixShroom (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalScale.x
@@ -12315,7 +12524,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1019491726
 Transform:
@@ -12355,7 +12564,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1032974749
 Transform:
@@ -12443,7 +12652,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!212 &1036796937
 SpriteRenderer:
@@ -12603,6 +12812,7 @@ MonoBehaviour:
   - {fileID: 644931376}
   ArrowMarker: {fileID: 894222557}
   statManager: {fileID: 1093177024}
+  BettysReactions: {fileID: 0}
 --- !u!1001 &1041629577
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12670,6 +12880,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
       propertyPath: m_Name
       value: helixShroom (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12826,6 +13040,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12847,6 +13065,10 @@ PrefabInstance:
     - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_Name
       value: helixShroom (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalScale.x
@@ -12930,7 +13152,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1053137104
 Transform:
@@ -13014,6 +13236,10 @@ PrefabInstance:
     - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_Name
       value: helixShroom (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13137,6 +13363,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13203,6 +13433,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13224,6 +13458,10 @@ PrefabInstance:
     - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_Name
       value: helixShroom (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalScale.x
@@ -13483,6 +13721,10 @@ PrefabInstance:
     - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_Name
       value: helixShroom (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14125,7 +14367,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1112826928
 Transform:
@@ -14186,6 +14428,10 @@ PrefabInstance:
     - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_Name
       value: helixShroom (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalScale.x
@@ -14268,7 +14514,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!212 &1136089121
 SpriteRenderer:
@@ -14410,6 +14656,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
       propertyPath: m_Name
       value: helixShroom (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14595,6 +14845,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14620,7 +14874,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!212 &1166922179
 SpriteRenderer:
@@ -14763,6 +15017,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14901,6 +15159,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14926,7 +15188,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!212 &1189703887
 SpriteRenderer:
@@ -15017,7 +15279,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1196106423
 Transform:
@@ -15229,6 +15491,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15250,6 +15516,10 @@ PrefabInstance:
     - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_Name
       value: helixShroom (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15365,6 +15635,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15470,6 +15744,10 @@ PrefabInstance:
     - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_Name
       value: helixShroom (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalScale.x
@@ -15597,6 +15875,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15675,6 +15957,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15736,6 +16022,10 @@ PrefabInstance:
     - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_Name
       value: helixShroom (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalScale.x
@@ -15814,6 +16104,10 @@ PrefabInstance:
     - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_Name
       value: helixShroom
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalScale.x
@@ -15936,6 +16230,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
       propertyPath: m_Name
       value: helixShroom (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16239,6 +16537,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16260,6 +16562,10 @@ PrefabInstance:
     - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_Name
       value: helixShroom (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalScale.x
@@ -16514,7 +16820,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1369643604
 Transform:
@@ -16592,6 +16898,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16662,6 +16972,10 @@ PrefabInstance:
     - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_Name
       value: helixShroom (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalScale.x
@@ -16745,7 +17059,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1426847166
 Transform:
@@ -17023,6 +17337,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17124,7 +17442,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1440451603
 Transform:
@@ -17314,7 +17632,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1451452409
 Transform:
   m_ObjectHideFlags: 0
@@ -17395,6 +17713,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17419,7 +17741,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1468967779
 Transform:
@@ -17508,7 +17830,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1479821688
 Transform:
@@ -17593,6 +17915,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 18.349998
@@ -17659,6 +17985,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 14.9
@@ -17724,6 +18054,10 @@ PrefabInstance:
     - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_Name
       value: helixShroom (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17795,7 +18129,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1536142280
 Transform:
@@ -17936,6 +18270,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17957,6 +18295,10 @@ PrefabInstance:
     - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_Name
       value: helixShroom (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18023,6 +18365,10 @@ PrefabInstance:
     - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_Name
       value: helixShroom (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalScale.x
@@ -18106,7 +18452,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1543104137
 Transform:
@@ -18191,6 +18537,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 19.61
@@ -18256,6 +18606,10 @@ PrefabInstance:
     - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_Name
       value: helixShroom (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalScale.z
@@ -18809,6 +19163,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18834,7 +19192,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!212 &1561653446
 SpriteRenderer:
@@ -18920,6 +19278,10 @@ PrefabInstance:
     - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_Name
       value: helixShroom (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19120,6 +19482,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 14.9
@@ -19190,7 +19556,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1580996254
 Transform:
@@ -19275,6 +19641,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.1945
@@ -19357,7 +19727,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1590295581
 Transform:
@@ -19442,6 +19812,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.1166766
@@ -19519,6 +19893,10 @@ PrefabInstance:
     - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_Name
       value: helixShroom
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalScale.x
@@ -19598,7 +19976,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1620673173
 Transform:
@@ -19776,7 +20154,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1627767810
 Transform:
@@ -19858,6 +20236,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19884,7 +20266,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1641422075
 Transform:
@@ -20017,6 +20399,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20038,6 +20424,10 @@ PrefabInstance:
     - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_Name
       value: helixShroom (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalScale.z
@@ -20309,7 +20699,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1691741707
 Transform:
@@ -20398,7 +20788,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1696252898
 Transform:
@@ -20487,7 +20877,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1708604767
 Transform:
@@ -20571,6 +20961,10 @@ PrefabInstance:
     - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_Name
       value: helixShroom (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalScale.x
@@ -20698,6 +21092,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20719,6 +21117,10 @@ PrefabInstance:
     - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_Name
       value: helixShroom (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20790,7 +21192,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1743989499
 Transform:
@@ -20923,6 +21325,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20944,6 +21350,10 @@ PrefabInstance:
     - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_Name
       value: helixShroom (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalScale.x
@@ -21154,6 +21564,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21248,6 +21662,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.14
@@ -21318,7 +21736,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1771447724
 Transform:
@@ -21539,6 +21957,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.91673005
@@ -21747,7 +22169,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1788567293
 Transform:
@@ -21859,6 +22281,10 @@ PrefabInstance:
     - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_Name
       value: helixShroom (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalScale.x
@@ -21982,6 +22408,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22003,6 +22433,10 @@ PrefabInstance:
     - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_Name
       value: helixShroom (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22069,6 +22503,10 @@ PrefabInstance:
     - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_Name
       value: helixShroom (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalScale.x
@@ -22147,6 +22585,10 @@ PrefabInstance:
     - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_Name
       value: helixShroom (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22351,7 +22793,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1826601330
 Transform:
@@ -22435,6 +22877,10 @@ PrefabInstance:
     - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_Name
       value: helixShroom (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22574,6 +23020,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.5900002
@@ -22639,6 +23089,10 @@ PrefabInstance:
     - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_Name
       value: helixShroom (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalScale.x
@@ -22790,6 +23244,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.86446995
@@ -22916,6 +23374,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22993,6 +23455,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
       propertyPath: m_Name
       value: helixShroom (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23146,6 +23612,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23167,6 +23637,10 @@ PrefabInstance:
     - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_Name
       value: helixShroom (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23317,6 +23791,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom
       objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.87626
@@ -23395,7 +23873,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1995917063
 Transform:
@@ -23480,6 +23958,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.1945001
@@ -23562,7 +24044,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2022629574
 Transform:
@@ -23646,6 +24128,10 @@ PrefabInstance:
     - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_Name
       value: helixShroom (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23769,6 +24255,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23838,6 +24328,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
       propertyPath: m_Name
       value: helixShroom (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23979,7 +24473,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2052935423
 Transform:
@@ -24189,7 +24683,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2085780820
 Transform:
@@ -24330,6 +24824,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24351,6 +24849,10 @@ PrefabInstance:
     - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_Name
       value: helixShroom (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalScale.x
@@ -24478,6 +24980,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24504,7 +25010,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2106506094
 Transform:
@@ -24637,6 +25143,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24714,6 +25224,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
       propertyPath: m_Name
       value: helixShroom (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24793,6 +25307,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24858,6 +25376,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
       propertyPath: m_Name
       value: helixShroom (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24929,6 +25451,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helixShroom (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44f773d2a6772b44f9403136226838c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24947,6 +25473,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 451879204}
     m_Modifications:
+    - target: {fileID: 4938830241195019061, guid: 953745fdd3fcf1e4f98689a78748f89f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4974248225231690965, guid: 953745fdd3fcf1e4f98689a78748f89f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.1
@@ -24966,6 +25496,18 @@ PrefabInstance:
     - target: {fileID: 5866318772723025999, guid: 953745fdd3fcf1e4f98689a78748f89f, type: 3}
       propertyPath: m_Name
       value: DanniShrooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866318772723025999, guid: 953745fdd3fcf1e4f98689a78748f89f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6088109935718934696, guid: 953745fdd3fcf1e4f98689a78748f89f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189925774684401505, guid: 953745fdd3fcf1e4f98689a78748f89f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6494904774564827893, guid: 953745fdd3fcf1e4f98689a78748f89f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25129,6 +25671,10 @@ PrefabInstance:
     - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_Name
       value: helixShroom
+      objectReference: {fileID: 0}
+    - target: {fileID: 2772761707691087256, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3256389200379629346, guid: 33ac672dd0ccab545ab8782f53ff98b9, type: 3}
       propertyPath: m_LocalScale.x
