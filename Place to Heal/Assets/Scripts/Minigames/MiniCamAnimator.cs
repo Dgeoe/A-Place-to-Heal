@@ -5,11 +5,11 @@ public class MiniCamAnimator : MonoBehaviour
     public Animator MiniGameCamera;
     public void isFood()
     {
-        MiniGameCamera.SetBool("Food", false);
+        MiniGameCamera.SetBool("Food", true);
     }
 
     public void isWater()
     {
-        MiniGameCamera.SetBool("Food", true);
+        MiniGameCamera.SetBool("Food", false);
     }
 }
