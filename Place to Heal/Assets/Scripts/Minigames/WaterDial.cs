@@ -12,7 +12,6 @@ public class WaterDial : MonoBehaviour
 
     private float currentGauge = 0f;
 
-    // 1 to 4 NOT 1-6 since first and last position are too easy 
     private int targetRange;
     private float holdTimer = 0f;
 
@@ -24,10 +23,13 @@ public class WaterDial : MonoBehaviour
     public StatManager statManager;
     public BettyBugFace emotes;
     public Animator BettysReactions;
+    public AudioSource successSound;
+    public AudioSource spraySound;
 
     private InputAction pressAction;
     private float hp;
-    private int tracker = 0; //how many times has the water minigame been played 
+    private int tracker = 0;
+
     void Awake()
     {
         pressAction = new InputAction(type: InputActionType.Button, binding: "<Mouse>/leftButton");
@@ -45,8 +47,6 @@ public class WaterDial : MonoBehaviour
             objectsToEnable[targetRange - 1].SetActive(true);
             ArrowMarker.SetActive(true);
         }
-
-        Debug.Log("Target range: " + targetRange + $" ({rangeMins[targetRange - 1]} - {rangeMaxs[targetRange - 1]})");
     }
 
     void OnEnable()
@@ -64,7 +64,6 @@ public class WaterDial : MonoBehaviour
         bool isPressing = pressAction.ReadValue<float>() > 0.5f;
         ReactionsReset();
 
-        // Gauge fill logic
         if (Mouse.current != null && Mouse.current.position.ReadValue().x > Screen.width / 2)
         {
             if (isPressing)
@@ -74,7 +73,9 @@ public class WaterDial : MonoBehaviour
                 StartCoroutine(FaceTextures(0.25f));
             }
             else
+            {
                 currentGauge -= decreaseRate * Time.deltaTime;
+            }
         }
         else
         {
@@ -84,7 +85,23 @@ public class WaterDial : MonoBehaviour
         currentGauge = Mathf.Clamp(currentGauge, 0f, 240f);
         DialGauge = (byte)currentGauge;
 
-        //Handles gauge range hold detection
+        
+        float volume = Mathf.Clamp01(currentGauge / 240f) * 0.6f;
+        if (volume > 0f)
+        {
+            if (!spraySound.isPlaying)
+            {
+                spraySound.loop = true;
+                spraySound.Play();
+            }
+            spraySound.volume = volume;
+        }
+        else
+        {
+            if (spraySound.isPlaying)
+                spraySound.Stop();
+        }
+
         float min = rangeMins[targetRange - 1];
         float max = rangeMaxs[targetRange - 1];
 
@@ -93,13 +110,16 @@ public class WaterDial : MonoBehaviour
             holdTimer += Time.deltaTime;
             if (holdTimer >= 2.5f)
             {
-                Debug.Log("YAY");
                 hp = hp + 2;
                 tracker = tracker + 1;
                 BettysReactions.SetBool("isPleased", true);
                 StartCoroutine(FaceTextures(0.5f));
 
                 StatManager.Instance.Betty_Health = Mathf.Min(10, StatManager.Instance.Betty_Health + 2);
+
+                if (successSound != null)
+                    successSound.Play();
+
                 holdTimer = -999f;
             }
         }
@@ -119,7 +139,6 @@ public class WaterDial : MonoBehaviour
         {
             OnClickReset();
         }
-
     }
 
     public void OnClickReset()
@@ -136,11 +155,11 @@ public class WaterDial : MonoBehaviour
         BettysReactions.SetBool("isDistressed", false);
         BettysReactions.SetBool("isPleased", false);
     }
-    
+
     private IEnumerator FaceTextures(float value)
     {
         emotes.offset = value;
-        yield return new WaitForSeconds(2f); 
+        yield return new WaitForSeconds(2f);
         emotes.offset = 0f;
     }
 }
