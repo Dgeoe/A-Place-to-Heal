@@ -12,8 +12,6 @@ public class Indicator : MonoBehaviour
     public GameObject backbutton;
     public GameObject FoodButton;
     public GameObject WaterButton;
-
-
     private Camera mainCamera;
 
     private void Awake()
