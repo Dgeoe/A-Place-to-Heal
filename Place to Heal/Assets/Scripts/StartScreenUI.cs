@@ -69,7 +69,7 @@ public class StartScreenUI : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
         yield return new WaitForSeconds(explanationDuration);
         yield return StartCoroutine(FadeOut(startScreenBlank, explanationFadeSpeed, explanationText));
 
-        SceneManager.LoadScene("Betty_Scene");
+        SceneManager.LoadScene("Betty Scene");
     }
 
     private void SetAlpha(Graphic g, float alpha)

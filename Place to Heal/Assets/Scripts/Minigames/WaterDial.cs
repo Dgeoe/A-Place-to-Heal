@@ -25,6 +25,7 @@ public class WaterDial : MonoBehaviour
     public Animator BettysReactions;
     public AudioSource successSound;
     public AudioSource spraySound;
+    public GameObject WaterHose;
 
     private InputAction pressAction;
     private float hp;
@@ -71,10 +72,12 @@ public class WaterDial : MonoBehaviour
                 currentGauge += increaseRate * Time.deltaTime;
                 BettysReactions.SetBool("isDistressed", true);
                 StartCoroutine(FaceTextures(0.25f));
+                WaterHose.SetActive(true);
             }
             else
             {
                 currentGauge -= decreaseRate * Time.deltaTime;
+                WaterHose.SetActive(false);
             }
         }
         else
