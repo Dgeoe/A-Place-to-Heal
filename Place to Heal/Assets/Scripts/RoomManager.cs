@@ -62,14 +62,14 @@ public class RoomManager : MonoBehaviour
     {
         Debug.Log("Switching to Betty_Scene.");
         CloseMenu();
-        SceneManager.LoadScene("Betty_Scene");
+        SceneManager.LoadScene("Betty Scene");
     }
 
     private void SwitchToNoxya()
     {
         Debug.Log("Switching to Noxya_Scene.");
         CloseMenu();
-        SceneManager.LoadScene("Noxya_Scene");
+        SceneManager.LoadScene("Noxya Scene");
     }
 
     private void CloseMenu()
