@@ -17,6 +17,8 @@ public class StartScreenUI : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
     public float explanationFadeSpeed = 1f;
     public float explanationDuration = 5f;
 
+    public AudioSource hoverAudio;
+
     private bool isHovered = false;
     private bool clicked = false;
 
@@ -38,6 +40,8 @@ public class StartScreenUI : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
     public void OnPointerEnter(PointerEventData eventData)
     {
         isHovered = true;
+        if (hoverAudio != null && !hoverAudio.isPlaying)
+            hoverAudio.Play();
     }
 
     public void OnPointerExit(PointerEventData eventData)
