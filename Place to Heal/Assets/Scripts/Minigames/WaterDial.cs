@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using System.Collections;
 
 public class WaterDial : MonoBehaviour
 {
@@ -21,13 +22,12 @@ public class WaterDial : MonoBehaviour
     public GameObject[] objectsToEnable;
     public GameObject ArrowMarker;
     public StatManager statManager;
+    public BettyBugFace emotes;
     public Animator BettysReactions;
 
     private InputAction pressAction;
     private float hp;
     private int tracker = 0; //how many times has the water minigame been played 
-    private int emote = 0; //so she isnt stuck in distressed mode
-
     void Awake()
     {
         pressAction = new InputAction(type: InputActionType.Button, binding: "<Mouse>/leftButton");
@@ -62,6 +62,7 @@ public class WaterDial : MonoBehaviour
     void Update()
     {
         bool isPressing = pressAction.ReadValue<float>() > 0.5f;
+        ReactionsReset();
 
         // Gauge fill logic
         if (Mouse.current != null && Mouse.current.position.ReadValue().x > Screen.width / 2)
@@ -69,8 +70,8 @@ public class WaterDial : MonoBehaviour
             if (isPressing)
             {
                 currentGauge += increaseRate * Time.deltaTime;
-                if (emote == 0)
-                    BettysReactions.SetBool("IsDistressed", true);
+                BettysReactions.SetBool("isDistressed", true);
+                StartCoroutine(FaceTextures(0.25f));
             }
             else
                 currentGauge -= decreaseRate * Time.deltaTime;
@@ -92,12 +93,12 @@ public class WaterDial : MonoBehaviour
             holdTimer += Time.deltaTime;
             if (holdTimer >= 2.5f)
             {
-                BettysReactions.SetBool("IsDistressed", false);
                 Debug.Log("YAY");
                 hp = hp + 2;
                 tracker = tracker + 1;
-                emote = emote + 1;
-                BettysReactions.SetBool("IsPleased", true);
+                BettysReactions.SetBool("isPleased", true);
+                StartCoroutine(FaceTextures(0.5f));
+
                 StatManager.Instance.Betty_Health = Mathf.Min(10, StatManager.Instance.Betty_Health + 2);
                 holdTimer = -999f;
             }
@@ -105,7 +106,7 @@ public class WaterDial : MonoBehaviour
         else
         {
             holdTimer = 0f;
-            BettysReactions.SetBool("IsPleased", false);
+            BettysReactions.SetBool("isPleased", false);
         }
 
         if (ArrowMarker != null)
@@ -128,6 +129,18 @@ public class WaterDial : MonoBehaviour
         objectsToEnable[targetRange - 1].SetActive(true);
         ArrowMarker.SetActive(true);
         tracker = 0;
-        emote = 0;
+    }
+
+    private void ReactionsReset()
+    {
+        BettysReactions.SetBool("isDistressed", false);
+        BettysReactions.SetBool("isPleased", false);
+    }
+    
+    private IEnumerator FaceTextures(float value)
+    {
+        emotes.offset = value;
+        yield return new WaitForSeconds(2f); 
+        emotes.offset = 0f;
     }
 }
