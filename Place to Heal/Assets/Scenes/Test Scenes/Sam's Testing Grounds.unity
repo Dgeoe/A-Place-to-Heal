@@ -4015,6 +4015,63 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 473452892}
   m_Mesh: {fileID: 5361483698135884197, guid: de100f6b627198548ad7f9efc970740f, type: 3}
+--- !u!1001 &481700020
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: e165587ae02836f41bf021c871dab41e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.876333
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e165587ae02836f41bf021c871dab41e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.2499995
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e165587ae02836f41bf021c871dab41e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.132268
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e165587ae02836f41bf021c871dab41e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e165587ae02836f41bf021c871dab41e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e165587ae02836f41bf021c871dab41e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e165587ae02836f41bf021c871dab41e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e165587ae02836f41bf021c871dab41e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e165587ae02836f41bf021c871dab41e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e165587ae02836f41bf021c871dab41e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e165587ae02836f41bf021c871dab41e, type: 3}
+      propertyPath: m_Name
+      value: NoxyaAnim
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e165587ae02836f41bf021c871dab41e, type: 3}
 --- !u!1001 &485228507
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8353,7 +8410,7 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 1
+  m_RenderPostProcessing: 0
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
@@ -17730,3 +17787,4 @@ SceneRoots:
   - {fileID: 1166922180}
   - {fileID: 1036796938}
   - {fileID: 440027889}
+  - {fileID: 481700020}
