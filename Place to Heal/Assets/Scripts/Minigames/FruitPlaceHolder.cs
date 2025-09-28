@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using UnityEngine.InputSystem;
-using UnityEngine.UI; 
+using UnityEngine.UI;
 
 public class FruitPlaceHolder : MonoBehaviour
 {
@@ -11,14 +11,17 @@ public class FruitPlaceHolder : MonoBehaviour
 
     [Header("Sprite Swapping")]
     public Sprite[] sprites; //0= full, 1= bitten 
-    private Image uiImage;   
+    private Image uiImage;
+
+    [Header("Audio")]
+    public AudioSource crunchSound; // crunch sound effect
 
     private void Awake()
     {
         uiImage = uiObject.GetComponent<Image>();
     }
 
-    public void Feed() 
+    public void Feed()
     {
         if (uiImage.sprite == sprites[0])
         {
@@ -26,6 +29,9 @@ public class FruitPlaceHolder : MonoBehaviour
             StartCoroutine(FaceTextures(0.5f));
             uiImage.sprite = sprites[1];
             StatManager.Instance.Betty_Hunger = Mathf.Min(10, StatManager.Instance.Betty_Hunger + 2);
+
+            if (crunchSound != null)
+                crunchSound.Play();
         }
     }
 

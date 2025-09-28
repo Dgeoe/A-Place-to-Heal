@@ -1,11 +1,14 @@
 using UnityEngine;
-using UnityEngine.EventSystems; 
+using UnityEngine.EventSystems;
 using TMPro;
 
 public class BrushMiniGame : MonoBehaviour, IPointerEnterHandler
 {
     public int snips = 0;
     public TMP_Text snipsText;
+
+    [Header("Audio")]
+    public AudioSource snipSound; // sound when snip
 
     private void Start()
     {
@@ -17,6 +20,9 @@ public class BrushMiniGame : MonoBehaviour, IPointerEnterHandler
     {
         snips++;
         UpdateUI();
+
+        if (snipSound != null)
+            snipSound.Play();
     }
 
     private void UpdateUI()
