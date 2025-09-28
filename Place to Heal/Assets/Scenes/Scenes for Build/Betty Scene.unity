@@ -12939,6 +12939,58 @@ Transform:
   - {fileID: 179724072}
   m_Father: {fileID: 232679429651260073}
   m_LocalEulerAnglesHint: {x: 0, y: 20.99, z: 0}
+--- !u!1 &1026618750
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1026618752}
+  - component: {fileID: 1026618751}
+  m_Layer: 0
+  m_Name: Binder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1026618751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1026618750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0906fb120c0a09a4a8675342e1f722f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  statManager: {fileID: 1093177024}
+  bettyUI:
+  - {fileID: 500994337}
+  - {fileID: 1560020418}
+  - {fileID: 1439860349}
+  noxyaUI: []
+  gameOverUI: {fileID: 1442053826}
+  retryButton: {fileID: 853199299}
+--- !u!4 &1026618752
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1026618750}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1287.5991, y: 0, z: 2923.9326}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1032974748
 GameObject:
   m_ObjectHideFlags: 0
@@ -26205,3 +26257,4 @@ SceneRoots:
   - {fileID: 646705152}
   - {fileID: 1093177025}
   - {fileID: 525170747}
+  - {fileID: 1026618752}
