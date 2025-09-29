@@ -14,6 +14,19 @@ public class IndicatorPopUp : MonoBehaviour
     [Header("Minigame Indicator")]
     public GameObject indicator;
 
+    private void Awake()
+    {
+        GameObject smObj = GameObject.Find("StatManager");
+        if (smObj != null)
+        {
+        statManager = smObj.GetComponent<StatManager>();
+        }
+        if (statManager == null)
+        {
+            return;
+        }
+    }
+
     void Update()
     {
         if (statManager == null || indicator == null) return;
