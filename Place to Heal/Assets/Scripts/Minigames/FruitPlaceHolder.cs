@@ -7,6 +7,7 @@ public class FruitPlaceHolder : MonoBehaviour
 {
     public Animator BettysReactions;
     public BettyBugFace emotes;
+    public NoxyaFaceScript emotes2;
     public RectTransform uiObject;
 
     [Header("Sprite Swapping")]
@@ -28,8 +29,9 @@ public class FruitPlaceHolder : MonoBehaviour
             BettysReactions.SetBool("IsPleased", true);
             StartCoroutine(FaceTextures(0.5f));
             uiImage.sprite = sprites[1];
+            StatManager.Instance.Noxya_Hunger = Mathf.Min(10, StatManager.Instance.Noxya_Hunger + 2);
             StatManager.Instance.Betty_Hunger = Mathf.Min(10, StatManager.Instance.Betty_Hunger + 2);
-
+            
             if (crunchSound != null)
                 crunchSound.Play();
         }
@@ -38,8 +40,10 @@ public class FruitPlaceHolder : MonoBehaviour
     private IEnumerator FaceTextures(float value)
     {
         emotes.offset = value;
+        emotes2.offset = value;
         yield return new WaitForSeconds(2f);
         emotes.offset = 0f;
+        emotes2.offset = 0f;
     }
 
     void Update()

@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scenes for Build/Betty Scene.unity
     guid: 5b0d38b5943e6314cbd1ab04fc34047a
+  - enabled: 1
+    path: Assets/Scenes/Scenes for Build/Noxya Scene.unity
+    guid: 2184c496d69b6b642832211982bbf954
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

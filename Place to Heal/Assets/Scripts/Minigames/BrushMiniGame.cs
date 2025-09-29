@@ -5,6 +5,8 @@ using System.Collections;
 
 public class BrushMiniGame : MonoBehaviour, IPointerEnterHandler
 {
+    public int snips;
+
     [Header("Audio")]
     public AudioSource snipSound; // sound when snip
 
@@ -15,11 +17,14 @@ public class BrushMiniGame : MonoBehaviour, IPointerEnterHandler
     public RectTransform brushUIObject; // brush that follows mouse
     public Sprite[] brushSprites; // 0 = default, 1 = swapped
     private Image brushUIImage;
+    public NoxyaFaceScript emotes2;
 
     private void Awake()
     {
         if (brushUIObject != null)
             brushUIImage = brushUIObject.GetComponent<Image>();
+        
+        StartCoroutine(FaceTextures(0.5f));
     }
 
     public void Reset()
@@ -34,10 +39,13 @@ public class BrushMiniGame : MonoBehaviour, IPointerEnterHandler
         // Reset brush sprite
         if (brushUIImage != null && brushSprites.Length > 0)
             brushUIImage.sprite = brushSprites[0];
+        
+        StartCoroutine(FaceTextures(0.5f));
     }
 
     public void OnPointerEnter(PointerEventData eventData)
     {
+        snips++;
         // Collect enabled mushrooms
         var enabledMushrooms = new System.Collections.Generic.List<GameObject>();
         foreach (var mushroom in Mushrooms)
@@ -61,13 +69,15 @@ public class BrushMiniGame : MonoBehaviour, IPointerEnterHandler
         // Trigger snip animation 
         if (brushUIImage != null && brushSprites.Length > 1)
             StartCoroutine(SwapBrushSprite());
+        
+        StartCoroutine(FaceTextures(0.25f));
     }
 
     private IEnumerator SwapBrushSprite()
     {
-        brushUIImage.sprite = brushSprites[1]; 
+        brushUIImage.sprite = brushSprites[1];
         yield return new WaitForSeconds(1f);
-        brushUIImage.sprite = brushSprites[0]; 
+        brushUIImage.sprite = brushSprites[0];
     }
 
     private void Update()
@@ -86,5 +96,13 @@ public class BrushMiniGame : MonoBehaviour, IPointerEnterHandler
 
             brushUIObject.localPosition = uiPosition;
         }
+    }
+    
+    private IEnumerator FaceTextures(float value)
+    {
+        
+        emotes2.offset = value;
+        yield return new WaitForSeconds(2f);
+        emotes2.offset = 0f;
     }
 }
