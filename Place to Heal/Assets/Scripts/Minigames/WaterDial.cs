@@ -115,6 +115,7 @@ public class WaterDial : MonoBehaviour
             {
                 hp = hp + 2;
                 tracker = tracker + 1;
+                BettysReactions.SetBool("isDistressed", false);
                 BettysReactions.SetBool("isPleased", true);
                 StartCoroutine(FaceTextures(0.5f));
 
