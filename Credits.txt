@@ -1,0 +1,6 @@
+Credits
+-----------
+Sam- Alien Modeler + Animator 
+Dani- Level Assets + Particle Systems
+Riona- Ui
+Joe- Programmer

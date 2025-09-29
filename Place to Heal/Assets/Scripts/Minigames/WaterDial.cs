@@ -30,6 +30,7 @@ public class WaterDial : MonoBehaviour
     private InputAction pressAction;
     private float hp;
     private int tracker = 0;
+    private bool ouch = true;
 
     void Awake()
     {
@@ -48,6 +49,7 @@ public class WaterDial : MonoBehaviour
             objectsToEnable[targetRange - 1].SetActive(true);
             ArrowMarker.SetActive(true);
         }
+
     }
 
     void OnEnable()
@@ -63,14 +65,21 @@ public class WaterDial : MonoBehaviour
     void Update()
     {
         bool isPressing = pressAction.ReadValue<float>() > 0.5f;
-        ReactionsReset();
 
         if (Mouse.current != null && Mouse.current.position.ReadValue().x > Screen.width / 2)
         {
             if (isPressing)
             {
                 currentGauge += increaseRate * Time.deltaTime;
-                BettysReactions.SetBool("isDistressed", true);
+                if (ouch == true)
+                {
+                    BettysReactions.SetBool("isDistressed", true);
+                    ouch = false;
+                }
+                else
+                {
+                    BettysReactions.SetBool("isDistressed", false);
+                }
                 StartCoroutine(FaceTextures(0.25f));
                 WaterHose.SetActive(true);
             }
@@ -88,7 +97,7 @@ public class WaterDial : MonoBehaviour
         currentGauge = Mathf.Clamp(currentGauge, 0f, 240f);
         DialGauge = (byte)currentGauge;
 
-        
+
         float volume = Mathf.Clamp01(currentGauge / 240f) * 0.6f;
         if (volume > 0f)
         {
@@ -117,6 +126,7 @@ public class WaterDial : MonoBehaviour
                 tracker = tracker + 1;
                 BettysReactions.SetBool("isPleased", true);
                 StartCoroutine(FaceTextures(0.5f));
+                Distressed();
 
                 StatManager.Instance.Betty_Health = Mathf.Min(10, StatManager.Instance.Betty_Health + 2);
 
@@ -152,17 +162,15 @@ public class WaterDial : MonoBehaviour
         ArrowMarker.SetActive(true);
         tracker = 0;
     }
-
-    private void ReactionsReset()
-    {
-        BettysReactions.SetBool("isDistressed", false);
-        BettysReactions.SetBool("isPleased", false);
-    }
-
     private IEnumerator FaceTextures(float value)
     {
         emotes.offset = value;
         yield return new WaitForSeconds(2f);
         emotes.offset = 0f;
+    }
+
+    public void Distressed()
+    {
+        ouch = true;
     }
 }
