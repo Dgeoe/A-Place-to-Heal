@@ -26,7 +26,7 @@ public class FruitPlaceHolder : MonoBehaviour
     {
         if (uiImage.sprite == sprites[0])
         {
-            BettysReactions.SetBool("IsPleased", true);
+            BettysReactions.SetBool("isPleased", true);
             StartCoroutine(FaceTextures(0.5f));
             uiImage.sprite = sprites[1];
             StatManager.Instance.Noxya_Hunger = Mathf.Min(10, StatManager.Instance.Noxya_Hunger + 2);
